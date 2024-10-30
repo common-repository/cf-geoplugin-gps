@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Geo Plugin GPS extension\n"
+"POT-Creation-Date: 2022-02-17 08:23+0100\n"
+"PO-Revision-Date: 2022-02-17 08:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cf-geoplugin-gps.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/Init.php:126
+msgid "There is no results for this search."
+msgstr "Нема резултата за ову претрагу."
+
+#: inc/Init.php:127
+msgid "Your daily limit is reached. Check your billing settings."
+msgstr "Ваш дневни лимит је достигнут. Проверите подешавања наплате."
+
+#: inc/Init.php:128
+msgid "Your account quota is reached."
+msgstr "Постигнута је квота вашег рачуна."
+
+#: inc/Init.php:129
+msgid "Your request is denied."
+msgstr "Ваш захтев је одбијен."
+
+#: inc/Init.php:130
+msgid "Your send bad or broken request to you API call."
+msgstr "Послали сте лош или погрешан захтев према АПИ-ју."
+
+#: inc/Init.php:131
+msgid ""
+"Request could not be processed due to a server error. The request may "
+"succeed if you try again."
+msgstr ""
+"Захтев није успео да се обради због грешке на серверу. Захтев ће можда "
+"успети ако покушате поново."
+
+#: inc/Init.php:132
+msgid "User denied the request for Geolocation."
+msgstr "Корисник је одбио захтев за гео локацију."
+
+#: inc/Init.php:133
+msgid "Location information is unavailable."
+msgstr "Подаци о локацији нису доступни."
+
+#: inc/Init.php:134
+msgid "The request to get user location timed out."
+msgstr "Захтев да се детектује локација корисника је истекао."
+
+#: inc/Init.php:135
+msgid "An unknown error occurred."
+msgstr "Дошло је до непознате грешке."
+
+#: inc/Init.php:136
+msgid "Geolocation is not supported by this browser."
+msgstr "Геолокација није подржана у овом прегледачу."
+
+#: inc/Init.php:137
+#, php-format
+msgid "Google Geocode: %s"
+msgstr "Гугл Геокод: %s"
+
+#: inc/classes/GPS.php:76
+msgid "GPS data missing."
+msgstr "Недостају ГПС подаци."
+
+#: inc/classes/GPS.php:90
+msgid "Could not retrieve geo data."
+msgstr "Није могуће вратити гео податке."
+
+#: inc/classes/GPS.php:137
+msgid "No GPS data."
+msgstr "Нема ГПС података."
+
+#: inc/classes/Requirements.php:68
+#, php-format
+msgid "You need first to install %1$s in order to use this %2$s addon."
+msgstr "Прво морате инсталирати %1$s да бисте користили %2$s."
+
+#: inc/classes/Requirements.php:78
+#, php-format
+msgid ""
+"You need first to upgrade your %1$s to version %2$s or above in order to use "
+"this %3$s addon."
+msgstr ""
+"Прво морате надоградити свој %1$s на верзију %2$s или новију да бисте "
+"користили %3$s."
+
+#: inc/classes/Requirements.php:87
+#, php-format
+msgid "%1$s need to be activated in order to use this %2$s addon."
+msgstr "Потребно је активирати %1$s да бисте користили %2$s."
+
+#: inc/classes/Requirements.php:105
+#, php-format
+msgid ""
+"The %1$s cannot run on PHP versions older than PHP %2$s. Please contact your "
+"host and ask them to upgrade."
+msgstr ""
+"%1$s не може да се покреће на PHP верзијама старијим од PHP%2$s. Молимо "
+"контактирајте свог сервер администратора и замолите га да изврши надоградњу."
+
+#: inc/classes/Requirements.php:121
+#, php-format
+msgid ""
+"The %1$s cannot run on WordPress versions older than %2$s. Please update "
+"your WordPress installation."
+msgstr ""
+"%1$s не може да се покреће за верзије WordPress-а старије од %2$s. "
+"Ажурирајте своју WordPress инсталацију."
+
+#: inc/classes/Requirements.php:156
+#, php-format
+msgid "Important upgrade notice for the version %s:"
+msgstr "Важно обавештење о надоградњи за верзију %s:"
+
+#: inc/classes/Requirements.php:170
+msgid ""
+"NOTE: Before doing the update, it would be a good idea to backup your "
+"WordPress installations and settings."
+msgstr ""
+"НАПОМЕНА: Пре него што извршите ажурирање, било би добро да направите "
+"резервне копије ваших WordPress инсталација и подешавања."
+
+#: inc/classes/Requirements.php:185
+msgid ""
+"This site uses the WordPress Geo Plugin GPS extension (formerly: CF Geo "
+"Plugin GPS extension) to display public visitor information based on the GPS "
+"location that can then be collected or used for various purposes depending "
+"on the settings of the plugin."
+msgstr ""
+"Овај сајт користи ГПС екстензију ВордПресс Гео Плугин (раније: ЦФ Гео Плугин "
+"ГПС екстензија) за приказ информација о јавним посетиоцима на основу ГПС "
+"локације које се затим могу прикупити или користити у различите сврхе у "
+"зависности од подешавања додатка."
+
+#: inc/classes/Requirements.php:186
+msgid ""
+"The WordPress Geo Plugin GPS extension allows all CF Geo Plugin users to "
+"locate their visitors using a GPS location. Using this plugin you solve the "
+"biggest problem of locating mobile visitors and correcting their location "
+"errors."
+msgstr ""
+"ГПС проширење ВордПресс Гео Плугин-а омогућава свим корисницима ЦФ Гео "
+"Плугин-а да лоцирају своје посетиоце користећи ГПС локацију. Коришћењем овог "
+"додатка решавате највећи проблем лоцирања мобилних посетилаца и исправљате "
+"њихове грешке у локацији."
+
+#: inc/classes/Requirements.php:187
+#, php-format
+msgid ""
+"This website uses API services, technology and goods from the WordPress Geo "
+"Plugin GPS extension and that part belongs to the <a href=\"%s\" target="
+"\"_blank\">WordPress Geo Plugin Privacy Policy</a>."
+msgstr ""
+"Ова веб локација користи АПИ услуге, технологију и податке из Вордпресс Гео "
+"Плугин ГПС екстензије и тај део припада <a href=\"%1$s\" target=\"_blank"
+"\">Политици приватности Вордпресс Гео Плугина</a>."
+
+#: inc/classes/Requirements.php:188
+#, php-format
+msgid ""
+"Also, part of the services, technology and goods come from the Google "
+"Geocode API and that part belongs to the <a href=\"%s\" target=\"_blank"
+"\">Google Privacy Policy</a>"
+msgstr ""
+"Такође, део услуга, технологије и података долази из Гугл Геокод АПИ-ја и "
+"тај део припада <a href=\"%s\" target=\"_blank\">Гугл политици приватности</"
+"a>"
+
+#. Plugin Name of the plugin/theme
+#: inc/classes/Requirements.php:192
+msgid "WordPress Geo Plugin GPS extension"
+msgstr "Вордпрес Гео Плугин ГПС екстензија"
+
+#. Plugin URI of the plugin/theme
+msgid "http://cfgeoplugin.com/"
+msgstr "http://cfgeoplugin.com/"
+
+#. Description of the plugin/theme
+msgid "WordPress GPS module for the CF Geo Plugin."
+msgstr "Вордпрес ГПС модул за CF GeoPlugin."
+
+#. Author of the plugin/theme
+msgid "INFINITUM FORM"
+msgstr "INFINITUM FORM"
+
+#. Author URI of the plugin/theme
+msgid "https://infinitumform.com/"
+msgstr "https://infinitumform.com/"
